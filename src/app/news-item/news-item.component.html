@@ -1,0 +1,11 @@
+<div class="newsWrapper" *ngIf="newsObj.Loaded" (click)="openFullStory()" [ngClass]="{'externalLink' : newsObj.External, 'expandedStory' : this.expanded}">    
+    <div class="newsTitle"><b>{{newsObj.title}}</b></div>   
+    <div class="fullStory" *ngIf="expanded" [innerHTML]="newsObj.text"></div> 
+    <div class="bioWrapper">
+        <div class="newsAuthor">By: {{newsObj.by}}</div>      
+        <div class="newsDate">{{newsObj.time | date:'d/M/yyyy h:mm a' }} </div>
+    </div>
+</div>
+
+
+
