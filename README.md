@@ -2,13 +2,14 @@
 
 This is the nexttech code test. It pulls stories from Hacker News and displays each item in a responsive format. Clicking an external story will open the url in a new tab. Stories without an external link will expand to show the full story text.
 
+## Build
+Run `npm install` to install the needed node_modules
+
+Run `ng build` to build the project. 
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
 ## Running unit tests
 
